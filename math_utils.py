@@ -29,7 +29,3 @@ if __name__ == "__main__":
     print(f"power(2, 3) = {power(2, 3)}")
     print(f"mod(17, 5) = {mod(17, 5)}")
     
-    try:
-        divide(10, 0)
-    except ValueError as e:
-        print(f"Error caught: {e}") 
