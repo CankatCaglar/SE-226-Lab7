@@ -11,7 +11,6 @@ def average_word_length(s):
     return sum(len(word) for word in words) / len(words)
 
 if __name__ == "__main__":
-    # Test cases
     test_string = "Hello, world! How are you?"
     print(f"Original: {test_string}")
     print(f"Character count: {count_characters(test_string)}")
