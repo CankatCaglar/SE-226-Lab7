@@ -10,7 +10,6 @@ def remove_punctuation(s):
     return ''.join(char for char in s if char not in string.punctuation)
 
 if __name__ == "__main__":
-    # Test cases
     test_string = "hello, world! how are you?"
     print(f"Original: {test_string}")
     print(f"Reversed: {reverse_string(test_string)}")
